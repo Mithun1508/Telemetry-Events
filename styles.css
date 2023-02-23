@@ -1,0 +1,40 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.app-container {
+  padding: 20px 20px;
+}
+
+.clickable-text {
+  color: #9b4dca;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.range {
+  width: 100%;
+  padding: 20px;
+  overflow: auto;
+  min-height: 50px;
+  max-height: 150px;
+  margin-bottom: 5px;
+}
+
+.range.users-range {
+  border: 1px solid #aaa;
+}
+
+.range.user-groups-range {
+  min-height: 100px;
+  max-height: 200px;
+  border: 1px solid #aaa;
+}
+
+.buttons-container {
+  column-gap: 20px;
+  margin-top: 10px;
+  display: inline-flex;
+  justify-content: space-between;
+}
